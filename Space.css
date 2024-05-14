@@ -1,0 +1,62 @@
+* {
+	padding: 10px;
+	margin: 10px;
+	outline: none;
+}
+
+header {
+	background-color: gray;
+}
+
+footer {
+	background-color: gray;
+}
+
+body {
+	background-image: url(images1.jpg);
+	color: white;
+	font-size: 40px;
+}
+
+main {
+	width: 1360px;
+	margin: 0 auto;
+}
+
+form {
+	width: 600px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.text {
+	display: flex;
+	justify-content: space-between;
+}
+
+.text .sun {
+	width: 600px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.planet {
+	display: flex;
+	width: 1300px;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+
+.t-smail {
+	text-align: center;
+	margin-bottom: 10px;
+}
+ 
+ul li{	
+	background-color: red;
+}
